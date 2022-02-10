@@ -365,6 +365,7 @@ h2 span {
   float: none;
   margin:0 auto;
   display:block;
+  width: 15%;
 }
 
 .about #headshot {
