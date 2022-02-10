@@ -363,6 +363,8 @@ h2 span {
   color: black;
   font-size: 50%;
   float: none;
+  margin:0 auto;
+  display:block;
 }
 
 .about #headshot {
