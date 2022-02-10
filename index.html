@@ -4,300 +4,226 @@
 
  <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <!-- OPTIONAL: description -->
-    <meta name="description" content="">
-    <!-- OPTIONAL: author -->
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="favicon.ico">
     <link rel="apple-touch-icon" href="icon.png" />
-
    <title>Trevor Hall</title>
-
-
-   <!-- Bootstrap core CSS -->
        <link href="css/bootstrap.css" rel="stylesheet">
        <link rel="stylesheet" href="css/font-awesome.min.css">
-
-       <!-- Link the main.css stylesheet -->
        <link href="css/main.css" rel="stylesheet">
-
-       <!-- OPTIONAL: Google Fonts (don't forget to edit main.css also) -->
-       <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-       <link href='//fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-       <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Lora&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
-       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-       <!--[if lt IE 9]>
-         <script src="js/html5shiv.js"></script>
-         <script src="js/respond.min.js"></script>
-       <![endif]-->
-
  </head>
+
  <body>
    <div class="header" id="headerwrap">
      <div class="container">
-       <div class="row centered">
-         <div class="col-lg-12">
-           <div class="animated animatedFadeInUp fadeInUp">
-             <h1>Trevor Hall</h1>
+       <div class="animated-box in" id="animated">
+           <div class="container">
+             <h1 id="intro">Hi, I'm Trevor Hall</h1>
            </div>
-           <div class="animated animatedFadeInUp fadeInUp">
-           <h3>Student at the University of Colorado Boulder |
-            <a href="mailto:trevor.hall@colorado.edu">trevor.hall@colorado.edu</a>
-            </div>
-           </h3>
-         </div>
+         <div class="container">
+         <a id = "email" href="mailto:trevor.hall@colorado.edu"><i class="icon-envelope"></i></a>
+         <a id = "github" href="https://github.com/Trevhall52"><i class="icon-github"></i></a>
+         <a id = "linkedin" href="https://www.linkedin.com/in/trevorhall3/"><i class="icon-linkedin"></i></a>
+         <!-- <input type="button" onClick="document.getElementById('about').scrollIntoView();" /> -->
+       </div>
        </div>
      </div>
    </div>
 
 
+   <div id="section2">
    <section id="about" name="about"></section>
-    <div class="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-2 col-lg-offset-1">
-            <h5>ABOUT ME</h5>
+   <details id="dropdown">
+     <summary>About Me</summary>
+      <div class="about">
+        <div class="row centered" id="description_text">
+          <hr>
+          <h3 id="header">
+            <span>Hello! I am Trevor Hall, an undergraduate student at the University of Colorado Boulder. </span>
+          </h2>
+          <hr>
+          <p id="description">I am in the final year of my undergraduate pursuing a degree in information analytics and computer science. My passions revolve around using technology to improve the academic and personal spaces around me. Through a number of relevant technical skills, my pursuits have been underlined by an important question: <i> How am I making a difference? </i><br><br>I am heavily involved in diversity, equity, and inclusion spaces in and around Boulder. As an elected representative in the Leeds Student Government, I am a third semester member - first semester leader of the Reducing Student Inequities pillar group. This pillar group is best known for its accomplishments in making campus spaces more equitable for all, including the production of a qualitative study of transfer student experiences at the university. Additionally, I have been directly involved in efforts to make university applications more equitable through the elimination of standardized testing and legacy status, policies that have recently been implemented at the state level. I have also been honored as a Daniel's Ethics Scholar, working with ethics professionals around Colorado in the pursuit of a higher ethical standard in a number of professional environments. <br><br> My pursuits are supported by my technical skills. As a data aficionado, I believe in the power of information to make important change. By utilizing in-depth analytics principles and my computer science background, I have participated in projects in a number of areas. I have experience in natural language processing, front-and-back-end web development, software development & documentation, algorithmic design, database design and analysis, operating systems & hardware, data representation, statistical representation, object-oriented programming, assembly language debugging ... et cetera. <br><br> I am looking to continue my growth as an impactful member of my community through technology. For more information about what I'm up to, please feel free to contact me via email or LinkedIn (above) or view my resume here. </p>
+          <div class="row centered">
+            <div class ="col-lg-3" id="resume">
+              <a class="btn btn-primary btn-1" id="button" href="Trevor Hall -- Resume.pdf" role="button">My Resume</a>
+            </div>
           </div>
-          <div class="col-lg-6">
-   <p>I am a Business and Computer Science student with an emphasis in Information Analytics at the Leeds School of Business, passionate about problem solving and excited about learning! I am currently working roles as a Business Development Intern at Whispir as well as the Technology and Assessment Lead at ASAP Tutoring. Additionally, I am a representative for the Leeds Student Government (LSG) and a brother of the Professional Business Fraternity of Delta Sigma Pi. Looking to utilize my skills as a developer, problem-solver, and technology enthusiast during a summer internship. </p>
-   </div>
-          <div class="col-lg-3">
-            <p><a href="TrevorHallResume.pdf"><i class="icon-file"></i> <sm>DOWNLOAD PDF</sm></a></p>
+        </div>
+      </div>
+    </details>
+      <br>
+
+  <section name="experience"></section>
+  <details id="dropdown">
+    <summary>My Experience</summary>
+    <div class="experience" id="experience_container">
+      <div class="row">
+      	<div id="experience" class="container desc">
+      		<div class="row">
+            <div class="col-lg-6" id="asap">
+              <img src="images/ASAP_logo.jpg" id="asap_image">
+              <p><t>Technology and Assessment Lead</t> <br>
+                Academic Success and Achievement Program <br>
+                <i>November 2019 - Present</i> <br>
+                <more>Academic support is critically important to any student's experience at University. Particularly during the pandemic, CU's academic community has become significantly more difficult to navigate - students are unable to supplement their learning with personalized assistance normally available to students attending in-person courses, and it has taken a significant negative toll on the overall learning experience for many. <br><br> While working at ASAP Tutoring, I am able to help ensure the quality of tutoring for as many students as possible. As the Technology and Assessment Lead, I have undertaken a variety of responsibilities - each of which contribute to the improvement of CU's tutoring experience. My projects include weekly analysis and reporting of session data, including the quality of sessions as well as the availability of courses. Additionally, I provide semesterly reporting to CU residence life administration on metrics including exposure, efficiency, and volume as well as a detailed breakdown of student experiences. My goal is to make the academic community at CU more navigable, and my time as a tutor coordinator helped accomplish this measure. <br><br> Recently, I have begun to facilitate tutor trainings in addition to my regular responsibilities. By providing sensitivity, methodological, and technical trainings to tutors, ASAP can ensure that the experiene in it's tutoring sessions is as effective as possible. In my opinion, there is no better way to improve an academic community than to ensure efficiency, navigability, and availability. Working at ASAP has been incredibly fulfilling and I am proud of the work I accomplish here. </more>
+              </p>
+            </div>
+            <br>
+            <div class="col-lg-6" id="lsg">
+              <img src="images/LSG_Logo.jpg" id="lsg_image">
+              <p><t>Representative</t> <br>
+                Leeds Student Government <br>
+                <i>May 2020 - Present</i> <br>
+                <more>The slogan of the Leeds Student Government is "students enhancing the student experience". If anything describes my aspirations during my time at Leeds, this is it. LSG has given me a fantastic opportunity to create a positive impact on my community as a whole through a variety of initiatives, challenges, and collaborative projects. Even before mentioning any key projects, it is important to note that Leeds Student Government is home to many of the most remarkable individuals I have encountered at CU, and there is hardly a better organization than this one. <br><br> Among my initiatives at LSG are the Reducing Student Inequities pillar initiative, which completed several projects with the theme of making CU a more equitable space for all students. By directly supporting legislature which supports this mission as well as performing studies on inequitable spaces, RSI worked diligently to support a variety of equity efforts in and around campus. A more detailed description of my projects and publications in this initiative can be found in the projects section. <br><br> Additionally, I was able to lead the Coding At Leeds initiative, which held programming workshops available to Leeds students with the aim of making computer-science-related skills more available to business students. <br><br> The Leeds Student Government continues to work on important initiatives throughout Leeds. To learn more about the organization and its members, check out their website here. </more>
+                <br><br>
+                <a class="btn btn-primary btn-1" id="button" href="https://leedsstudentgovernment.org/" role="button">Learn More about LSG</a>
+                <br>
+              </p>
+            </div>
+            <br>
+            <div class="col-lg-6" id="research">
+              <img src="images/leeds_logo.jpg" id="research_image">
+              <p><t>Research Assistant</t> <br>
+                Leeds Division of Research <br>
+                <i>September 2021 - Present</i> <br>
+                <more> Amidst the COVID-19 Pandemic, the northern-colorado community was hit hard. Colorado's small businesses took the brunt of this impact. The Business Research Division offers an amazing opportunity to work on customized research projects which support my immediate community. By performing analysis on the economic recovery of a community struggling to rebound, I am able to contribute to the greater regrowth effort directly while applying my analytical and technical acumen. <br><br> My projects primarily circulated around these analyses, prioritizing including data collection, analysis, and updates. Most notably, my semester's project was to create a dashboard to visualize a number of economic features and to gain a greater understanding of Colorado's restaurant landscape. By developing the tools to communicate this information, more direct action can be taken to support Colorado's restaurants as well as continue the general trend of regrowth.  </more>
+              </p>
+            </div>
+            <br>
+      				<div class="col-lg-6" id="seagate">
+                <img src="images/seagate_logo.jpg" id="seagate_image">
+                <p><t>Information and Data Analytics Intern</t> <br>
+                  Seagate Technologies <br>
+                  <i>May 2021 - August 2021</i> <br>
+                  <more>My first software internship was one of the most valuable professional experiences I've had to date. While working at Seagate Technologies, I was lucky enough to collaborate with the customer experience team to develop a tool which makes better use of qualitative data. By applying my development skills as well as a number of natural language processing techniques, I was able to create and document an application which provides topic and sentiment modeling capabilities, and allows for a more responsive and customized customer experience. For a more in-depth description of the tool, please view the projects section. <br><br>Working with the team at Seagate allowed me to find my place as a professional and as a developer. Because of the open discussion and reflection with business intelligence and analyst professionals, I was able to develop my analytical acumen beyond what I'd hoped. My experience at Seagate helped make me into a great problem-solver, and I found it to be a very fulfilling experience. </more>
+                </p>
+              </div>
+              <br>
+              <div class="col-lg-6" id="whispir">
+                <img src="images/whispir_logo.jpg" id="whispir_image">
+      					<p><t>Marketing Research Intern</t> <br>
+      						Whispir <br>
+                  <i>September 2020 - May 2021</i> <br>
+                  <more>Being exposed to a variety of environments (professionally or otherwise) is critically important to my own perception of diversity and growth. Prior to working at Whispir, I had found it difficult to explore environments which were still malleable or changing - every group establishes norms eventually. By joining a growing organization such as Whispir, I was able to be a part of a team which finding its place in the SAAS landscape. <br><br> During my time at Whispir, I completed a variety of projects relating to competitive differentiation and marketing, including providing direction using data collection and analysis. Oftentimes, these projects were done independently, giving me access to independent learning and eventual feedback which shape the type of analyst I intend to be. I helped define the partner strategy in the US market through similar means. By performing competitor and client analysis, I contributed to establishing Whispir in the communication software market. Additionally, I worked briefly to perform maintenance and evaluation of online communications, including a comprehensive evaluation of website features and a cooperative improvement process with development teams. My time at Whispir furthered to my desire to work in software. <br><br> My experience at Whispir was extremely valuable and unique, and I feel that I have a greater understanding of growth, both in an organizational and personal context as a result. </more>
+      					</p>
+      				</div>
+      		</div>
+      	</div>
+        </div>
+        <hr>
+        <div class="row">
+        	<div id="experience" class="container desc">
+            <div class="col-lg-6" id="cu_boulder">
+              <img src="images/cu_logo.jpg" id="cu_boulder_image">
+              <p><t>Bachelor of Science</t> <br>
+                University of Colorado Boulder <br>
+                <i>August 2018 - May 2022</i> <br>
+                <more>The University of Colorado has helped to provide me with a learning community and a wealth of resources to grow as a student. With a scale and diversity I hadn't experienced before, CU helped push me to succeed and become the student I strive to be. Through my involvement with Leeds Student Government, the Daniel's ethics fund, undergraduate research and on-campus jobs, I was able to establish a place for myself in the Boulder community that I value greatly. Additionally, the faculty at the Leeds School of Business as well as the school of engineering and applied sciences helped me to expand as a student and shape my worldview. The Boulder community truly helped me develop a love for learning and a passion for growth, and I am extremely thankful for the inspiring individuals that helped develop me into the person that I am.  </more>
+              </p>
+            </div>
           </div>
+        </div>
+      </div>
+    </details>
+      <br>
 
-        </div><!--/.row-->
-      </div><!--/.container-->
-    </div><!--/ #intro-->
-
-    <section id="resume" name="resume"></section>
-    	<!-- EDUCATION SECTION -->
-    	<div class="container desc">
-    		<div class="row">
-
-    				<div class="col-lg-2 col-lg-offset-1">
-    					<h5>EDUCATION</h5>
-    				</div>
-    				<!-- EDIT: education line 1 -->
-    				<div class="col-lg-6">
-    					<p><t>Bachelor of Science: Information Analytics, emphasis in Computer Science</t><br/>
-    						University of Colorado Boulder, Leeds School of Business
-    						<!--<br/><i>Extra info here</i>-->
-    					</p>
-    				</div>
-    				<div class="col-lg-3">
-    					<p><sm>Expected SPRING 2022</sm><br/>
-    					<imp><sm>IN PROGRESS</sm></imp>
-    					</p>
-    				</div>
-
-    				<!-- EDIT: education line 2 -->
-    				<div class="col-lg-6 col-lg-offset-3">
-    					<p><t>Computer Science Integration Program </t><br/>
-    						 The Computer Science Integration Program is a rigorous academic program including dual-enrollment in the School of Engineering and Applied Sciences. With a curriculum providing Leeds Students an advanced understanding of computer science topics with a myriad of technical proficiencies, I've become an avid problem solver and enthusiast of all-things computers. The program's coursework includes Computer Systems, Discrete Math, Data Structures, and Database Design, Software Development Methods, etc.
-    						<!--<br/><i>Extra info here</i>-->
-    					</p>
-    				</div>
-    				<div class="col-lg-3">
-    					<p><sm>JUNE 2012</sm></p>
-    				</div>
-
-    		</div><!--/.row -->
-    		<br>
-    		<hr>
-    	</div><!--/.container -->
-
-    	<!-- WORK SECTION -->
-    	<div class="container desc">
-    		<div class="row">
-
-    				<div class="col-lg-2 col-lg-offset-1">
-    					<h5>WORK</h5>
-    				</div>
-    				<!-- EDIT: work line 1 -->
-    				<div class="col-lg-6">
-    					<p class="tight"><t>Business Development Intern </t><br/>
-    						Whispir <br/>
-    					</p>
-    					<p><more>I am currently working on the business development team for Whispir, a communications software development company. To date in my tenure, my daily responsibilities include utilizing the internal Whispir platform to spearhead marketing communications for a variety of engagement campaigns, monitoring communications and leads to facilitate B2B communications between account executives and clients, utilizing Salesforce as an analysis platform to track communications, targets, and campaigns for assessment and development, reporting on the effectiveness of campaigns and bottom-line efficiency, and participating in whitepaper campaigns through platforms such as Vonage and AWS to effectively market to industry professionals. My work is centralized around developing the presence a software company in the American market by working cross-functionally to ensure strategies were implemented efficiently and effectively.</more></p>
-    				</div>
-    				<div class="col-lg-3">
-    					<p><sm>September 2020 - Present <br />
-    					Boulder, CO, USA</sm></p>
-    				</div>
-
-    				<!-- EDIT: work line 2-->
-    				<div class="col-lg-6 col-lg-offset-3">
-    					<p class="tight"><t>Technology and Assessment Lead</t><br/>
-    						Academic Success and Achievement Program <br/>
-    					</p>
-    					<p><more>I am also working as the Technology and Assessment Lead for an on-campus tutoring company. On a daily basis, my responsibilities include the utilization a variety of analysis platforms to provide insights from data relating to tutor effectiveness, student performance, and student feedback. Additionally, I help facilitate internal processes such as hiring, evaluating organizational needs, and transition to online tutoring through data analysis. I create and monitor data environments leveraged by the entire staff, including the implementation of an algorithmic process for data transition, formatting, and analysis. My work contributed to bi-annual cumulative reports providing key performance indicators and insights to administrative bodies.</more></p>
-    				</div>
-    				<div class="col-lg-3">
-    					<p><sm>November 2019 - Present <br />
-    					Boulder, CO, USA</sm></p>
-    				</div>
-    		</div><!--/.row -->
-    		<br>
-    		<hr>
-    	</div><!--/.container -->
-
-
-    	<!-- AWARDS SECTION -->
-    	<div class="container desc">
-    		<div class="row">
-    				<div class="col-lg-2 col-lg-offset-1">
-    					<h5>ACTIVITIES</h5>
-    				</div>
-
-    				<!-- EDIT: awards line 1-->
-    				<div class="col-lg-6">
-    					<p><t>Representative</t><br/>
-    						Leeds Student Government<br/>
-    					</p>
-              <p><more>Serving during the 2020-2021 academic year at CU Boulder, I am a representative on the council of the Leeds Student Government. My projects and contributions incude leading the Coding at Leeds initiative, focused around making programming, development, and other computer-science related skills more available to the student body. Phases and projects include hosting Python workshops in collaboration with HackCU, assessing student interest, and collaborating with faculty in pursuit of offering a programming curriculum and certificate program. I've also worked on the Leeds Town Hall initiative, focused around providing students with the opportunity to voice their experience transitioning to online learning to Leeds' administration through a town-hall. In LSG, I work frequently with Leeds administration to improve Leeds with student feedback and assessment. We represent the interests of the student body by means of providing feedback and assessing student pain-points to create effective initiatives to improve the student experience. My work is centralized around bettering the student experience at Leeds and providing additional opportunities to Leeds students.
-              </more></p>
-    				</div>
-    				<div class="col-lg-3">
-    					<p><sm>AUGUST 2020 - PRESENT</sm></p>
-    				</div>
-
-    				<!-- EDIT: awards line 2-->
-    				<div class="col-lg-6 col-lg-offset-3">
-    					<p class="tight"><t>Member, VP of Community Service, Pledge Class President</t><br/>
-    						Delta Sigma Pi Professional Business Fraternity
-    					</p>
-    					<p><more>Since the fall of 2019, I've acted as a member of the Professional Fraternity of Delta Sigma Pi. Opportunities and involvement include attending professional events from partnering local companies throughout the semester focused on professional development and industry education, as well as attending/facilitating community service events with local nonprofits and organizations focused on giving back to the community and maintaining brotherly involvement. During the spring of 2020, I acted as the Vice President of Community Service for the Professional Fraternity of Delta Sigma Pi. My responsibilities included scheduling 10+ community service events for brothers to participate in (Organizations include A Precious Child, There With Care, the Leeds School of Business, etc.), marketing community service events to brothers to maximize brotherly involvement. track said involvement and progress to community service requirements for the betterment of chapter status and to further improve community relations. During the fall of 2019, I acted as the Pledge Class President for the Professional Fraternity of Delta Sigma Pi. My responsibilities included acting as a liaison between pledge class and brothers, managing communication and pledge involvement, and facilitating projects by the pledge executive team.
-    				</div>
-    				<div class="col-lg-3">
-    					<p><sm>SEPTEMBER 2019 - PRESENT</sm></p>
-    				</div>
-
-    		</div><!--/.row -->
-    		<br>
-        <hr>
-    	</div><!--/.container -->
-
-      <div class="container desc">
+    <details id="dropdown">
+      <summary>Projects and Publications</summary>
+      <div class="container desc" id="project_container">
         <div class="row">
-            <div class="col-lg-2 col-lg-offset-1">
-              <h5>PROJECTS</h5>
+            <div class="row centered">
+              <hr>
+              <h2>Technical Projects</h2>
+              <hr>
             </div>
-
-            <!-- EDIT: awards line 1-->
-            <div class="col-lg-6">
-              <p><t>CSCI 1300: Starting Computing Final Project - Game of Thrones RPG</t><br/>
-              </p>
-              <p><more>The Game of Thrones RPG Project is to create a game from scratch using the standard library for C++, leveraging a variety of operations (file reading, class implementation, etc.) to create an RPG-style game for users to play. The completed program is a 3000+ line program, with no bugs and additional scorekeeping methods and in-game features. For further review, please view the CSCI 1300 Final Projext repository listed on my Github page.
-              </more></p>
+            <div class="row">
+              <div class="col-lg-6" id="macro">
+                <p><br>Seagate Technologies - Alteryx Language Processing Macro <br>
+                  <more>During my internship at Seagate Technologies, I was tasked with using Python to create a Natural-Language-Processing application for the purpose of analyzing a variety relevent text data. By employing various linguistic principles as well as various natural language processing techniques in addition to analysis tools such as SciPy and Pandas, the application which I developed provided topic and sentiment modeling capabilities to a customer-focused team of analysts. By deploying the macro, analysts and researchers are able to derive important quantitative data from vast arrays of qualitative inputs. With additional focus on ease-of-use and a priority placed on user-experience, the tool which I developed can be easily deployed within a standard Alteryx workflow for simple additions and alterations. <br> <br> In addition to the technical responsibilities involved with development, I was able to lead a team of analysts in performing user-acceptance-testing prior to deployment. This multi-step process involved proofing the application for technical vulnerabilities and subjective UX flaws. In addition to user acceptance testing, I drafted and published relevant documentation for the tool for ease of use and a comprehensive description of its capabilities. This project was a major success and continues to be leveraged to create a more responsive customer experience today. </more>
+                </p>
+              </div>
+              <div class="col-lg-6" id="dashboard">
+                <p><br>Restaurant Data Tableau Dashboard <br>
+                  <more>My individual project as a research assistant revolved around the construction of a tableau dashboard to represent data relevant to the Colorado restaurant sector. Pulling data from various surveys conducted by the Bureau of Labor Statistics, I used Tableau's native GIS capabilities as well as data mapping tools to produce an interactive product. Through the construction of relevant series IDs, this dashboard will continue to be updated to illustrate pertinent trends for Colorado restaurants.</more>
+                </p>
+                <img src="images/dashboard.jpg" id="dashboard_image">
+              </div>
+              <div class="col-lg-6" id="websites">
+                <p><br>Campus Odyssey - Scavenger Hunt Website <br>
+                  <more>Campus Odyssey is a web application developed to serve as a hub for creating, customizing, and mediating scavenger hunts. Through its different capabilities, users are able to create scavenger hunts filled with customizable tasks and post them for others to access. Users are able to upload photos of their completing of tasks for points, which are visible on the scavenger hunt's leaderboard as well as the site's image feed. <br> <br> The site is built on an architecture consisting of standard EJS views, bootstrap customization, JavaScript-based functionality and a Node.Js integration with a NoSQL server. The application also accesses third-party functionality for image uploads and docker composing. <br><br> This project remains private for academic integrity reasons, but I would be happy to discuss its functionality, architecture, and development process. Additionally, if you have any scavenger hunt needs, I am your guy. </more>
+                </p>
+                <img src="images/website_1.jpg" id="website_image">
+                <img src="images/website_2.jpg" id="website_image">
+              </div>
+              <div class="col-lg-6" id="dictionary">
+                <p><br>Hash Table Dictionary <a id = "github" href="https://github.com/Trevhall52/CSCI-2270-Final-Projext"><i class="icon-github"></i></a><br>
+                  <more>My Digital Dictionary is a C++ command-line application which leverages chained-hashing and search trees to create an efficient method for parsing the english language. By either appending all words to a single chained hash table or reserving memory by building letter-specific tables, users are able to search for any definition in seconds (frequently in a few thousandths of a second). <br><br> Please view the project's GitHub repository (linked above) for more relevant documentation and a more in-depth look into the structures which make this application possible.  </more>
+                </p>
+                <img src="images/dictionary_1.jpg" id="dictionary_image">
+                <img src="images/dictionary_2.jpg" id="dictionary_image">
+              </div>
+                <div class="col-lg-6" id="game_of_thrones">
+                  <p><br>Command Line RPG - Game of Thrones <a id = "github" href="https://github.com/Trevhall52/CSCI-1300-Final-Project/tree/main/CSCI_1300_Final_Project"><i class="icon-github"></i></a><br>
+                    <more>As season 8 of Game of Thrones released, I created a C++ command-line RPG with a fully customizable map layout, character attributes, and difficulty. The game orients around a point system, where players gather points by visiting cities, winning battles, and acquiring armies and heroes through in-game currency. Leaderboard score tracking, turn-based navigation, and NPC behavior programming are highlights of the game. <br><br> Please view the project's GitHub repository (linked above) for more relevant documentation and a more in-depth look into the structures which make this application possible. </more>
+                  </p>
+                  <img src="images/GoT_1.jpg" id="got_image">
+                  <img src="images/GoT_2.jpg" id="got_image_2">
+                </div>
             </div>
-            <!-- EDIT: awards line 2-->
-            <div class="col-lg-6 col-lg-offset-3">
-              <p class="tight"><t>CSCI 2400: Data Structures Final Project - Hash Table Utilization</t><br/>
-              </p>
-              <p><more> The Hash Table Utilization Project is to leverage the creation of a hash table and several other data structures to solve a complex problem. My chosen problem is to create an efficient dictionary system, using several .csv files with english words and their definitions (200,000+ words total in 26 files). My project acts to improve on the already impressive efficiency of a the hash table structure by minimizing the parsing needed to find a definition. The program can be run by run by either creating one large hash table containing all english words and their definitions (large build time, short search time) or utilizing a binary search tree to access only the correct .csv file containing the searched word. For further review, please view the CSCI 2270 Final Projext repository listed on my Github page.
-              </more></p>
+            <div class="row centered">
+              <hr>
+              <h2>Non-Technical Projects</h2>
+              <hr>
             </div>
-            <div class="col-lg-6 col-lg-offset-3">
-              <p class="tight"><t>BCOR 1030 Final Project - Zayo Gender Equity Initiative</t><br/>
-              </p>
-              <p><more> Placed first in the BCOR 1030 Zayo Case Competition, which involved the creation of a multi-step program for increasing gender equity in management positions at Zayo. Formulated a program adopted by HR professionals within a local Boulder startup to ease the process of internal promotion and development.
-              </more></p>
+            <div class="row">
+              <div class="col-lg-6" id="rsi">
+                <p><br>Reducing Student Inequities (RSI) - Transfer Qualitative Study<br>
+                  <more>Through my involvement in Leeds Student Government, the Reduced Student Inequities pillar group conducted a qualitative survey with the aim of identifying factors which drive a student's decision to transfer to the University of Colorado, with the ultimate goal of increasing transfer rates to CU in the interest of improving the student body. By conducting interviews with students at local schools, we were able to derive a number of key insights into what sorts of characteristics are most attractive to local students. In addition to the data collected, my group delivered a comprehensive report of our findings as well as recommendations for further action. Our deliverables were presented to various administrative bodies around campus and will be important in future driving recruitment efforts around the University.  </more>
+                </p>
+                <img src="images/rsi.jpg" id="rsi_image">
+              </div>
+              <div class="col-lg-6" id="programming_workshops">
+                <p><br>Coding at Leeds - Programming Workshops<br>
+                  <more>During the Fall of 2020, I led an LSG initiative aimed at making computer science-related skills more available to business students. In collaboration with HackCU, LSG hosted Python programming workshops with basic information for students to feel comfortable in a programming environment and using basic concepts. These workshops drove engagement through designed marketing materials and through faculty at Leeds.</more>
+                </p>
+              </div>
+                <div class="col-lg-6" id="zayo">
+                  <p><br>Zayo Case Competition - Management Equity<br>
+                    <more>As part of the BCOR 1030 final project, my project group developed a 3-pronged strategy for making management positions at Zayo more accessable and equitable. By collaborating on researchers which study organizational diversity, my team was selected by Leeds faculty to present our plan and our findings to Zayo human-resource executives. After presenting our project, we were selected as the first-place team and our proposal is being utilized within HR at Zayo.  </more>
+                  </p>
+                  <img src="images/zayo.jpg" id="zayo_image">
+                </div>
             </div>
-        </div><!--/.row -->
+            <div class="row centered">
+              <hr>
+              <h3>Publications and Reports</h3>
+              <hr>
+            </div>
+            <div class="row">
+              <div class="col-lg-6" id="rsi2">
+                <p><br>RSI - Transfer Qualitative Study Report<br>
+                  <more>The cumulative efforts of RSI's Transfer Qualitative Study were summarized in the study report, which is compiled by those involved. The report consists of several explanatory, descriptive, and prescriptive sections which includes data analysis, a summary of our research methods, and future recommendations. Due to the sensitive nature of the data involved, the report will remain private; however, I am more than willing to discuss methods and broad findings. </more>
+                </p>
+                <p><br>RSI - Support Letter for HB21-1067<br>
+                  <more>In RSI's pursuit of an equitable student experience, my team drafted a letter in support of HB21-1067, a Colorado house bill aimed at removing standardized test scores and legacy status as criteria for Colorado University admissions. The letter would receive signatures from members of the CU Student Government as well as other local student governments. The letter of support was presented in front of Colorado legislature in support of the bill.</more>
+                  <br><br><iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6774841232238641154" height="300" width="50%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe><iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6804126729372753920" height="300" width="50%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                </p>
+              </div>
+              <div class="col-lg-6" id="entrepreneurship">
+                <p><br>Colorado Business Review, Issue 1, 2022<br>
+                  <more>I was published as a contributing writer to the first 2022 edition of the Colorado Business Review. My article "Entrepreneurship, Startups, and Economic Drivers in Colorado" provides a summary of the entrepreneurship panel at the 2021 Colorado Economic Outlook Forum and keys into drivers of colorado's economic rebound amidst the COVID-19 pandemic. </more>
+                    <br><br><a class="btn btn-primary btn-1" id="button" href="https://www.colorado.edu/business/business-research-division/brd-publications" role="button">Read the article here</a>
+                </p>
+              </div>
+            </div>
+        </div>
         <br>
         <hr>
-      </div><!--/.container -->
-
-      <div class="container desc">
-        <div class="row">
-
-            <div class="col-lg-2 col-lg-offset-1">
-              <h5>PROGRAMMING LANGUAGES</h5>
-            </div>
-            <ul>
-              <li>C</li>
-              <li>C++</li>
-              <li>Python (Pandas, NumPy, etc.)</li>
-              <li>SQL</li>
-              <li>HTML/CSS</li>
-              <li>Assembly Language</li>
-            </ul>
-        </div><!--/.row -->
-        <br>
-        <hr>
-      </div><!--/.container -->
-
-      <div class="container desc">
-        <div class="row">
-
-            <div class="col-lg-2 col-lg-offset-1">
-              <h5>ADDITIONAL SKILLS</h5>
-            </div>
-            <div class="col-lg-6">
-              <p><t>Leadership</t><br/>
-              </p>
-              <p><more>Having lead a variety of successful, high-impact projects, my resume is one of successful leadership. Being a thoughtful leader is one of my most important professional aspects, and I look to lead many more impactful projects.
-            </div>
-            <!-- EDIT: awards line 2-->
-            <div class="col-lg-6 col-lg-offset-3">
-              <p class="tight"><t>Analytical Skills</t><br/>
-              </p>
-              <p><more>Information Analytics, being my area of study, has permeated more that just my coursework. As a student and professional, I have utilized a wide variety of analytics techniques and platforms to extract insights and learn from data.
-              </more></p>
-            </div>
-            <div class="col-lg-6 col-lg-offset-3">
-              <p class="tight"><t>Programming/Development</t><br/>
-              </p>
-              <p><more>As a computer science integration student, I've taken coursework relating to software development and computer systems. I've fallen in love with problem-solving and development, and have supplemented my coursework with my own projects and learning.
-              </more></p>
-            </div>
-            <div class="col-lg-6 col-lg-offset-3">
-              <p class="tight"><t>Presentation and Speaking Skills</t><br/>
-              </p>
-              <p><more>My project and coursework has been tied together by my presentation skills. My ability to accurately present information and move an audience with an engaging presentation is one of the most foundational parts of myself as a professional.
-              </more></p>
-            </div>
-        </div><!--/.row -->
-        <br>
-        <hr>
-      </div><!--/.container -->
-
-
-      <section id="contact" name="contact"></section>
-      	<!--FOOTER DESCRIPTION -->
-      	<div id="footwrap" class="footer">
-      		<div class="container">
-      			<div class="row">
-
-      				<div class="col-lg-2 col-lg-offset-1">
-      					<h5>CONTACT</h5>
-      				</div>
-      				<!-- EDIT: email -->
-      				<div class="col-lg-6">
-      					<p><t>Email</t><br/>
-      						<a href="mailto:trevor.hall@colorado.edu" class="mail">trevor.hall@colorado.edu</a> <br/>
-      					</p>
-      					<!-- EDIT: address -->
-      					<!-- EDIT: phone number -->
-      					<p><t>Phone</t><br/>
-      						<a href="tel:9702317454" class="tel">(970) 231-7454</a> <br/>
-      					</p>
-      				</div>
-      				<div class="col-lg-3">
-      					<p><sm>SOCIAL LINKS</sm></p>
-      					<p>
-      						<!-- EDIT: Social Links. Replace # with your URL for each -->
-      						<a href="https://github.com/Trevhall52"><i class="icon-github"></i></a>
-      						<a href="https://twitter.com/halltrev52"><i class="icon-twitter"></i></a>
-      						<a href="https://www.linkedin.com/in/trevorhall3/"><i class="icon-linkedin"></i></a>
-      						<!--<a href="#"><i class="icon-github"></i></a>-->
-      					</p>
-      				</div>
-      			</div><!--/.row -->
-      		</div><!--/.container -->
-      	</div><!--/ #footer -->
+      </div>
+      </details>
+    </div>
 
 </body>
 </html>
