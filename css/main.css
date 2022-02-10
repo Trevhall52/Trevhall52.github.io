@@ -143,6 +143,7 @@ summary {
   width: 95%;
   display: inline-block;
   overflow:hidden;
+  text-align: center;
 }
 
 .about a {
