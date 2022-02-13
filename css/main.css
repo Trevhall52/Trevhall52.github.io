@@ -362,10 +362,9 @@ h2 span {
   border: 1px solid black;
   color: black;
   font-size: 50%;
-  float: none;
-  display: flex;
-  justify-content: center;
   max-width: 30%;
+  margin:0 auto;
+  display:block;
 }
 
 .about #headshot {
