@@ -365,6 +365,7 @@ h2 span {
   float: none;
   display: flex;
   justify-content: center;
+  max-width: 30%;
 }
 
 .about #headshot {
