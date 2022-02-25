@@ -362,7 +362,9 @@ h2 span {
   border: 1px solid black;
   color: black;
   font-size: 50%;
-  max-width: 30%;
+  display: inline-block;
+  max-width: 50%;
+  min-width: 30%;
   margin:0 auto;
   display:block;
 }
